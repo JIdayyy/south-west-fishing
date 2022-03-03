@@ -1,4 +1,4 @@
-import { IFormErrors } from '@interfaces/form';
+import { IFormErrors } from '@src/interfaces/form';
 import { FieldError } from 'react-hook-form';
 
 const hasValidationErrors = (
