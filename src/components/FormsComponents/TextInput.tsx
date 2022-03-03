@@ -1,13 +1,14 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable react/jsx-props-no-spreading */
+import { IFormErrors } from '@src/interfaces/form';
 import hasValidationErrors from '@utils/hook-form-errors';
 import { FieldValues, UseFormRegister } from 'react-hook-form';
-import { IFormData, IFormErrors } from 'src/interfaces/form';
 
 interface IProps {
     label: string;
     value: string;
     className?: string;
-    register: UseFormRegister<IFormData & FieldValues>;
+    register: UseFormRegister<any & FieldValues>;
     errors: IFormErrors;
     errorMessage: string;
 }

@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable react/jsx-props-no-spreading */
+import { IFormErrors } from '@src/interfaces/form';
 import hasValidationErrors from '@utils/hook-form-errors';
 import React from 'react';
 import { UseFormRegister, FieldValues } from 'react-hook-form';
-import { IFormData, IFormErrors } from 'src/interfaces/form';
 
 interface ISelectOption {
     value: string;
@@ -15,7 +16,7 @@ interface IProps {
     label: string;
     className?: string;
     labelClassName?: string;
-    register: UseFormRegister<IFormData & FieldValues>;
+    register: UseFormRegister<any & FieldValues>;
     errors: IFormErrors;
     errorMessage: string;
 }
