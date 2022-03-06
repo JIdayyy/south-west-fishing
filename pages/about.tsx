@@ -17,7 +17,7 @@ function About() {
                 <div className="float-left mr-2  transform translate-y-2 w-1/2 h-1/2 relative overflow-hidden aspect-h-1 aspect-w-3">
                     <Image src="/images/pike.jpg" layout="fill" priority />
                 </div>
-                <span className="text-sm sm:text-xl text-gray-600 w-full">
+                <span className="text-sm font-light sm:text-xl text-gray-600 w-full">
                     Pêcheur depuis l’enfance, j’ai commencé la pêche grâce à mon
                     grand père. Depuis cette époque j’ai gardé la passuon de la
                     pêche et je n’ai jamais cessé de pêcher et de parcourirs les

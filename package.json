@@ -10,6 +10,7 @@
         "prettier-format": "prettier --write \"pages/**/*.tsx\" \"pages/api/**/*.ts\""
     },
     "dependencies": {
+        "@googlemaps/react-wrapper": "^1.1.26",
         "@hookform/resolvers": "^2.8.5",
         "@jidayyy/useonclickoutside": "^1.0.1",
         "@jidayyy/usewindowdimension": "^1.0.0",
