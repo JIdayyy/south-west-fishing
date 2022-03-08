@@ -46,7 +46,7 @@ function Header(): JSX.Element {
             </div>
             <div className="w-full hidden md:flex border-t p-2 pt-3 mt-4  justify-between align-middle items-center max-w-5xl">
                 {navLinks.map((link) => (
-                    <Link href={link.url} passHref>
+                    <Link key={link.id} href={link.url} passHref>
                         <a
                             href="/"
                             className="text-base flex items-center align-middle justify-center relative text-gray-400 font-semibold"

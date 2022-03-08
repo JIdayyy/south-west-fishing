@@ -16,4 +16,5 @@ const CustomToast = ({ message }: { message: string }) => {
         </>
     );
 };
+
 export default CustomToast;

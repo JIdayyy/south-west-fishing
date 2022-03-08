@@ -8,7 +8,7 @@ const photos = (width: number) => [
         height: 1,
     },
     {
-        src: '/images/background.jpg',
+        src: '/images/carr3.jpg',
         width: width < 500 ? 1 : 2,
         height: 1,
     },
@@ -18,27 +18,12 @@ const photos = (width: number) => [
         height: 1,
     },
     {
-        src: '/images/background.jpg',
+        src: '/images/carr4.jpg',
         width: 2,
         height: 1,
     },
     {
         src: '/images/blackbass.jpg',
-        width: width < 500 ? 0.5 : 1,
-        height: 1,
-    },
-    {
-        src: '/images/blackbass.jpg',
-        width: 1,
-        height: 1,
-    },
-    {
-        src: '/images/background.jpg',
-        width: 2,
-        height: 1,
-    },
-    {
-        src: '/images/background.jpg',
         width: width < 500 ? 0.5 : 1,
         height: 1,
     },

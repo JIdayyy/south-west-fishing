@@ -36,7 +36,8 @@ const MyCaroussel = () => {
                         />
                     </div>
                     <Image
-                        src="/images/background.jpg"
+                        priority
+                        src="/images/carr4.jpg"
                         layout="fill"
                         width={1000}
                         height={height()}
@@ -44,13 +45,36 @@ const MyCaroussel = () => {
                 </div>
 
                 <Image
-                    src="/images/main_float.jpg"
+                    priority
+                    src="/images/background.jpg"
                     layout="responsive"
                     width={1000}
                     height={height()}
                 />
                 <Image
-                    src="/images/blackbass.jpg"
+                    priority
+                    src="/images/carr3.jpg"
+                    layout="responsive"
+                    width={1000}
+                    height={height()}
+                />
+                <Image
+                    priority
+                    src="/images/carr4.jpg"
+                    layout="responsive"
+                    width={1000}
+                    height={height()}
+                />
+                <Image
+                    priority
+                    src="/images/trout2.jpg"
+                    layout="responsive"
+                    width={1000}
+                    height={height()}
+                />
+                <Image
+                    priority
+                    src="/images/carr5.jpg"
                     layout="responsive"
                     width={1000}
                     height={height()}

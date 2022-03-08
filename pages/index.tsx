@@ -2,7 +2,6 @@ import Image from 'next/image';
 import useWindowDimensions from '@jidayyy/usewindowdimension';
 import { motion } from 'framer-motion';
 import MyCaroussel from '@components/Caroussel';
-import CustomGridGalery from '@components/PhotoGrid';
 
 const Home = () => {
     const { width } = useWindowDimensions();
@@ -61,7 +60,6 @@ const Home = () => {
                             encore ...
                         </div>
                     </div>
-                    <CustomGridGalery />
                 </div>
             </div>
         </motion.div>
