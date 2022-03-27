@@ -4,6 +4,7 @@ import useWindowDimensions from '@jidayyy/usewindowdimension';
 
 const MyCaroussel = () => {
     const { width } = useWindowDimensions();
+
     const height = () => {
         if (width > 1200) {
             return 300;
@@ -16,6 +17,7 @@ const MyCaroussel = () => {
         }
         return 500;
     };
+
     return (
         <div className="relative">
             <Carousel

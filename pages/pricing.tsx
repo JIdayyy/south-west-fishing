@@ -19,7 +19,7 @@ function Tarifs() {
                     poissons devront être remis à l’eau dans les meilleures
                     conditions possibles, le poisson avant, la photo après !
                 </span>
-                <table className="grid overflow-hidden grid-cols-5 grid-rows-5 text-sm font-light sm:text-xl">
+                <table className="grid my-10 overflow-hidden grid-cols-5 grid-rows-5 text-sm font-light sm:text-xl">
                     <div className="bg-gray-300 p-2" />
                     <div className="bg-gray-300 p-2">1 Personne</div>
                     <div className="bg-gray-300 p-2">2 Personnes</div>

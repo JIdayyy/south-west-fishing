@@ -20,7 +20,7 @@ const Home = () => {
                     <h1 className="font-semibold my-4 text-xl md:text-2xl text-gray-600 ">
                         Bienvenue sur le site south west fishing !
                     </h1>
-                    <div className="text-sm sm:text-xl text-gray-600 w-full">
+                    <div className="text-sm sm:text-xl text-gray-600 w-full  pb-48">
                         <div className="float-left  mt-2 mr-4 rounded-sm overflow-hidden">
                             <Image
                                 className="float-left"
@@ -31,7 +31,7 @@ const Home = () => {
                                 priority
                             />
                         </div>
-                        <div className="p-0 w-full font-light text-justify">
+                        <div className="p-0 w-full font-normal text-justify">
                             Depuis 2020 <strong>South West Fishing</strong> vous
                             propose des stages et séjours de pêches dans la
                             région <strong>Pays Basque </strong>

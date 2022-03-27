@@ -19,19 +19,22 @@ function About() {
                 </div>
                 <span className="text-sm font-light sm:text-xl text-gray-600 w-full">
                     Pêcheur depuis l’enfance, j’ai commencé la pêche grâce à mon
-                    grand père. Depuis cette époque j’ai gardé la passuon de la
-                    pêche et je n’ai jamais cessé de pêcher et de parcourirs les
-                    cours d’eau du pays basque à la recherche de truites black
-                    basset plus encore...! Je me suis aussi naturellement
-                    impliqué dans une association de pêche dans laquelle j’évolu
-                    depuis plusieurs années. Je me suis essayé à toute sortes de
-                    techniques et toute sorte de pêche aussi j’ai su piocher
-                    dans chaque approche de l’eau le meilleur de la technique
-                    pour affiner mon savoir faire. Après une carrière dans la
+                    grand père.
+                    <br /> Depuis cette époque j’ai gardé la passuon de la pêche
+                    et je n’ai jamais cessé de pêcher et de parcourirs les cours
+                    d’eau du pays basque à la recherche de truites black basset
+                    plus encore...! <br />
+                    Je me suis aussi naturellement impliqué dans une association
+                    de pêche dans laquelle j’évolu depuis plusieurs années.{' '}
+                    <br /> Je me suis essayé à toute sortes de techniques et
+                    toute sorte de pêche aussi j’ai su piocher dans chaque
+                    approche de l’eau le meilleur de la technique pour affiner
+                    mon savoir faire. <br /> Après une carrière dans la
                     mécanique, et lors de ma participation à l’école de pêche de
-                    l’aappma Nuvelle Côte Basque ( APN ) j’ai ouvert les yeux et
+                    l’aappma Nivelle Côte Basque ( APN ) j’ai ouvert les yeux et
                     j’ai choisis de me reconvertir et de faire de ma passion mon
                     métier en transmettant le gout et le respect de la pêche.
+                    <br />
                     Une véritable révélation pour moi, car j’y ai trouvé une
                     seconde passion, celle de transmètre et d’apprendre l’art et
                     la manière de capturer des poissons tout en gardant une

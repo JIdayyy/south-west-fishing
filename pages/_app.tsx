@@ -5,7 +5,8 @@ import NProgress from 'nprogress';
 import router from 'next/router';
 import store from 'src/redux/store';
 import { Provider as ReduxProvider } from 'react-redux';
-import { ToastContainer } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
+import { useEffect } from 'react';
 import ErrorBoundary from '@components/Error/ErrorBoundary';
 import ErrorFallback from '@components/Error/ErrorFallback';
 import 'react-toastify/dist/ReactToastify.css';
@@ -18,6 +19,9 @@ router.events.on('routeChangeComplete', () => NProgress.done());
 router.events.on('routeChangeError', () => NProgress.done());
 
 function MyApp({ Component, pageProps }: AppProps) {
+    useEffect(() => {
+        toast('Bienvenue sur South West Fishing ! 🎣');
+    }, []);
     return (
         <>
             <ReduxProvider store={store}>
@@ -25,7 +29,13 @@ function MyApp({ Component, pageProps }: AppProps) {
                     <ErrorBoundary ErrorFallback={ErrorFallback}>
                         <Component {...pageProps} />
                     </ErrorBoundary>
-                    <ToastContainer autoClose={3000} />
+                    <ToastContainer
+                        closeOnClick
+                        draggable
+                        position="bottom-right"
+                        autoClose={3000}
+                        pauseOnHover
+                    />
                 </Layout>
             </ReduxProvider>
         </>
