@@ -14,10 +14,10 @@ function About() {
                 Qui suis je ?
             </h1>
             <div>
-                <div className="float-left mr-2  transform translate-y-2 w-1/2 h-1/2 relative overflow-hidden aspect-h-1 aspect-w-3">
+                <div className="float-left mr-2 mb-2  transform translate-y-2 w-1/2 h-1/2 relative overflow-hidden aspect-h-1 aspect-w-3">
                     <Image src="/images/pike.jpg" layout="fill" priority />
                 </div>
-                <span className="text-sm font-light sm:text-xl text-gray-600 w-full">
+                <span className="text-sm py-8 font-light sm:text-base text-gray-600 w-full">
                     Pêcheur depuis l’enfance, j’ai commencé la pêche grâce à mon
                     grand père.
                     <br />

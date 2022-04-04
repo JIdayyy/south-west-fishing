@@ -36,12 +36,15 @@ const Home = () => {
                             propose des stages et séjours de pêches dans la
                             région <strong>Pays Basque </strong>
                             sud <strong> Landes</strong>. <br />
+                            <br />
                             Découvrez la pêche dans le sud ouest avec un guide
                             diplômé expérimenté. Partir en séjour guidage ou
                             initiation s’est s’assurer une journée de pêche dans
                             les meilleures conditions, et la certitude de se
                             faire accompagner par un{' '}
                             <strong>encadrant passionné et expérimenté</strong>.
+                            <br />
+                            <br />
                             <br />
                             <br />
                             Que vous soyez{' '}
@@ -51,6 +54,7 @@ const Home = () => {
                             vos <strong>wadders</strong> et embarquez sur les
                             nives qui nous offiront de splendides paysages et
                             des <strong>poissons</strong> joueurs.
+                            <br />
                             <br />
                             Plutot
                             <strong> carnassiers</strong> ?{' '}

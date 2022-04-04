@@ -17,7 +17,7 @@ function Zone() {
                 <div className="float-left mr-4 w-full transform translate-y-2 md:w-1/2 md:h-1/2 relative overflow-hidden   md:aspect-h-2 md:aspect-w-6">
                     <Map />
                 </div>
-                <span className="text-sm  font-normal sm:text-xl text-gray-600 w-full">
+                <span className="text-sm  font-normal sm:text-base text-gray-600 w-full">
                     Le secteur <strong>Pays Basque</strong> sud Landes est très
                     propice pour la pêche de tout type de carnassiers.
                     <br />
@@ -48,7 +48,7 @@ function Zone() {
                         priority
                     />
                 </div>
-                <span className="text-sm py-10  font-normal sm:text-xl text-gray-600 w-full">
+                <span className="text-sm  font-normal sm:text-base text-gray-600 w-full">
                     La <strong>Nive</strong> Elle nait des torrents de{' '}
                     <strong>Béhérobie </strong>
                     (Estérençuby) auxquels viennent se greffer le{' '}
@@ -56,10 +56,12 @@ function Zone() {
                     d&apos;<strong>Arnéguy</strong> en rive gauche près de{' '}
                     <strong>St Jean Pied de Port</strong>.
                     <br />
+                    <br />
                     Elle est ensuite rejointe par la Nive des{' '}
                     <strong>Aldudes à St Martin d&apos;Arrossa</strong>, le Laka
                     à Ossès, le Baztan à Bidarray, la Mouline à Louhossoa, le
                     Laxia à Itxassou, le Latsa à Espelette...
+                    <br />
                     <br />
                     La Nive termine son périple à <strong>Bayonne</strong> pour
                     se jeter dans l&apos;

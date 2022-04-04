@@ -7,13 +7,13 @@ const MyCaroussel = () => {
 
     const height = () => {
         if (width > 1200) {
-            return 300;
+            return 350;
         }
         if (width > 800) {
-            return 400;
+            return 450;
         }
         if (width > 500) {
-            return 500;
+            return 550;
         }
         return 500;
     };
@@ -30,20 +30,15 @@ const MyCaroussel = () => {
                 <div className="flex w-full h-full items-center align-middle justify-center z-10">
                     <div className="z-50">
                         <Image
+                            blurDataURL="/images/main_float.jpg"
                             layout="fill"
-                            width={1000}
+                            placeholder="blur"
                             src="/icons/swflogo.svg"
                             priority
                             quality={100}
                         />
                     </div>
-                    <Image
-                        priority
-                        src="/images/carr4.jpg"
-                        layout="fill"
-                        width={1000}
-                        height={height()}
-                    />
+                    <Image priority src="/images/carr4.jpg" layout="fill" />
                 </div>
 
                 <Image
