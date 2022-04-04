@@ -25,13 +25,13 @@ const Home = () => {
                             <Image
                                 className="float-left"
                                 src="/images/main_float.jpg"
-                                width={width < 1000 ? 200 : 350}
-                                height={width < 1000 ? 180 : 300}
+                                width={width < 1000 ? 200 : 250}
+                                height={width < 1000 ? 180 : 200}
                                 quality={100}
                                 priority
                             />
                         </div>
-                        <div className="p-0 w-full font-normal text-justify">
+                        <div className="p-0 w-full font-normal text-justify text-base">
                             Depuis 2020 <strong>South West Fishing</strong> vous
                             propose des stages et séjours de pêches dans la
                             région <strong>Pays Basque </strong>
