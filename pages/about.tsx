@@ -28,6 +28,7 @@ function About() {
                     Je me suis aussi naturellement impliqué dans une association
                     de pêche dans laquelle j’évolu depuis plusieurs années.
                     <br />
+                    <br />
                     <br /> Je me suis essayé à toute sortes de techniques et
                     toute sorte de pêche aussi j’ai su piocher dans chaque
                     approche de l’eau le meilleur de la technique pour affiner

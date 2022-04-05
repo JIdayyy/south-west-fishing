@@ -47,8 +47,7 @@ const Home = () => {
                             <br />
                             <br />
                             <br />
-                            Que vous soyez{' '}
-                            <strong>débutant ou pêcheur chevroné</strong>, nos
+                            Que vous soyez débutant ou pêcheur chevroné, nos
                             guidages s’adaptent à vos besoins. <br />
                             Vous êtes plûtot <strong>truite</strong> ? Enfillez
                             vos <strong>wadders</strong> et embarquez sur les

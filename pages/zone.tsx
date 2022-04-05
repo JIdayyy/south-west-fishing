@@ -14,10 +14,10 @@ function Zone() {
                 Zone de pêche
             </h1>
             <div className="w-full">
-                <div className="float-left mr-4 w-full transform translate-y-2 md:w-1/2 md:h-1/2 relative overflow-hidden   md:aspect-h-2 md:aspect-w-6">
+                <div className="float-left mb-10 md:mb-0 mr-4 w-full transform translate-y-2 md:w-1/2 md:h-1/2 relative overflow-hidden   md:aspect-h-2 md:aspect-w-6">
                     <Map />
                 </div>
-                <span className="text-sm  font-normal sm:text-base text-gray-600 w-full">
+                <span className="text-sm my-10 md:my-0 font-normal sm:text-base text-gray-600 w-full">
                     Le secteur <strong>Pays Basque</strong> sud Landes est très
                     propice pour la pêche de tout type de carnassiers.
                     <br />
