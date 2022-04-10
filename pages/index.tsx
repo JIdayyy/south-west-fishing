@@ -6,6 +6,17 @@ import MyCaroussel from '@components/Caroussel';
 const Home = () => {
     const { width } = useWindowDimensions();
 
+    // const instagramData = async () => {
+    //     const data = await axios.get(
+    //         'https://graph.instagram.com/me/media?fields=685460696136237&access_token=80af767114e8970d71f739d332ec94d4',
+    //     );
+    //     console.log(data);
+    // };
+
+    // useEffect(() => {
+    //     instagramData();
+    // }, []);
+
     return (
         <motion.div
             animate={{ opacity: 1 }}
@@ -65,6 +76,19 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* <InstagramEmbed
+                url="https://www.instagram.com/mathieu_bzd_fishing/"
+                clientAccessToken="80af767114e8970d71f739d332ec94d4"
+                maxWidth={320}
+                hideCaption={false}
+                containerTagName="div"
+                protocol=""
+                injectScript
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+            /> */}
         </motion.div>
     );
 };
