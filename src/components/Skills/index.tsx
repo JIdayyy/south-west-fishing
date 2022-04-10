@@ -11,7 +11,7 @@ const descriptions = [
     {
         title: 'Salmonidés',
         description:
-            'Venez découvrir ou vous perfectionner, aux leurres ou au « toc » sur le bassin de la Nivelle et des Nives à la recherche des ses truites sauvages. Des stages de pêche sur les lacs de sont aussi envisageables sur demande. ',
+            'Venez découvrir ou vous perfectionner aux leurres, au « toc » et à la mouche sur le bassin de la Nivelle et des Nives à la recherche des ses truites sauvages. Des stages de pêche sur les lacs de sont aussi envisageables sur demande. ',
         image: '/images/skills/trout.jpg',
     },
     {
