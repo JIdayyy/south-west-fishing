@@ -4,6 +4,7 @@ import React from 'react';
 
 type Props = {
     skill: {
+        id: string;
         title: string;
         description: string;
         image: string;
@@ -18,7 +19,7 @@ export default function SkillCard({ skill }: Props) {
             <div className="float-left  mt-2 mr-4 rounded-sm overflow-hidden">
                 <Image
                     src={skill.image}
-                    width={width < 740 ? 500 : 250}
+                    width={width < 740 ? 500 : 300}
                     layout="responsive"
                     height={width < 740 ? 400 : 250}
                     quality={100}
