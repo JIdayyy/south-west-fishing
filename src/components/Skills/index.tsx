@@ -5,7 +5,7 @@ const descriptions = [
     {
         title: 'Float tube',
         description:
-            'Venez découvrir cette approche de la pêche de façon ludique et sécurisé qui vous ouvrent les portes de  nouvelles zones de pêches inaccessibles du bord. C’est l’opportunité d’ une expérience de pêche unique, au plus près de la nature avec des émissions de co² proche de zéro. Ce type de stage est un bon moyen de vous faire une idée sur l’utilisation d&apos;un float tube avant d’en acheter un.',
+            'Venez découvrir cette approche de la pêche de façon ludique et sécurisé qui vous ouvrent les portes de  nouvelles zones de pêches inaccessibles du bord. C’est l’opportunité d’ une expérience de pêche unique, au plus près de la nature avec des émissions de co² proche de zéro. Ce type de stage est un bon moyen de vous faire une idée sur l’utilisation d’un float tube avant d’en acheter un.',
         image: '/images/skills/float.jpg',
     },
     {
