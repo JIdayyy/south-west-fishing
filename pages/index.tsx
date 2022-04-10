@@ -65,7 +65,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="w-full my-20 h-56 relative flex flex-col items-center align-middle justify-center">
-                        <Image src="/images/bg.jpg" layout="fill" />
+                        <Image src="/images/bg.jpg" priority layout="fill" />
                         <div className="text-white z-50 text-2xl my-2">
                             “Convivialité partage et aventure !”
                         </div>
