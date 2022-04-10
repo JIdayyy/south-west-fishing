@@ -38,18 +38,18 @@ function Tarifs() {
                 </h3>
                 <ul className="flex flex-col w-full my-10">
                     <li>
-                        <strong>– 125 euros </strong>la demie journée de 5
+                        <strong>- 125 euros </strong>la demie journée de 5
                         heures (matinée ou après-midi)
                     </li>
                     <li>
-                        <strong>– 190 euros</strong> la journée de 8 heures de
+                        <strong>- 190 euros</strong> la journée de 8 heures de
                         pêche)
                     </li>
                     <li>
                         <strong>- 345 euro</strong> pour 2 jours
                     </li>
                     <li>
-                        <strong>– 60 euros </strong> pour le coup du soir (à
+                        <strong>- 60 euros </strong> pour le coup du soir (à
                         partir de 18h, 18h30, horaires variables), 30 euros si
                         pris en complément d’une demie journée (après-midi)
                     </li>
