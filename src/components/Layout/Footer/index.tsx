@@ -7,7 +7,9 @@ function Footer(): JSX.Element {
             <div className="max-w-5xl md:flex-row flex-col  flex items-start align-top justify-between w-full p-5">
                 <div className="flex flex-col text-white my-2 md:my-0">
                     <span>Mes titres :</span>
-
+                    <div>
+                        <span>n° diplôme: BPALP190299</span>
+                    </div>
                     <div>
                         <span>n° carte professionnelle: 06420ED0154</span>
                     </div>
