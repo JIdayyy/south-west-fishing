@@ -11,17 +11,17 @@ const Home = () => {
         <motion.div
             animate={{ opacity: 1 }}
             initial={{ opacity: 0 }}
-            className="w-full align-top h-full  flex flex-col  justify-start"
+            className="w-full align-top   flex flex-col  justify-start"
         >
             <MyCaroussel />
 
-            <div className="w-full h-full  sm:p-0 relative flex flex-col items-center align-middle justify-center">
+            <div className="w-full sm:p-0 relative flex flex-col items-center align-middle justify-center">
                 <div className="w-full bg-white   max-w-5xl  h-10" />
-                <div className="max-w-5xl bg-white p-2 sm:p-5 md:px-20 transform ">
-                    <h1 className="font-semibold my-4 text-xl md:text-2xl text-gray-600 ">
+                <div className="max-w-5xl bg-white  transform ">
+                    <h1 className="font-semibold my-4 p-2 sm:p-5 md:px-20 text-xl md:text-2xl text-gray-600 ">
                         Bienvenue sur le site south west fishing ! 🐟 🎣
                     </h1>
-                    <div className="text-sm sm:text-xl text-gray-600 w-full  pb-48">
+                    <div className="text-sm sm:text-xl p-2 sm:p-5 md:px-20 text-gray-600 w-full  pb-48">
                         <div className="float-left  mt-2 mr-4 rounded-sm overflow-hidden">
                             <Image
                                 className="float-left"
@@ -32,7 +32,7 @@ const Home = () => {
                                 priority
                             />
                         </div>
-                        <div className="p-0 w-full font-normal text-justify text-base">
+                        <div className="p-0 w-full  font-normal text-justify text-base">
                             Depuis 2020 <strong>South West Fishing</strong> vous
                             propose des stages et séjours de pêches dans la
                             région <strong>Pays Basque </strong>
@@ -62,6 +62,15 @@ const Home = () => {
                             abrite
                             <strong> Black-Bass Brochet Perches</strong> et plus
                             encore ...
+                        </div>
+                    </div>
+                    <div className="w-full my-20 h-56 relative flex flex-col items-center align-middle justify-center">
+                        <Image src="/images/bg.jpg" layout="fill" />
+                        <div className="text-white z-50 text-2xl my-2">
+                            “Convivialité partage et aventure !”
+                        </div>
+                        <div className="text-white z-50 my-2">
+                            “Les valeurs qui nous animent”
                         </div>
                     </div>
                     <Skills />

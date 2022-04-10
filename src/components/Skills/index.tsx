@@ -27,7 +27,7 @@ const descriptions = [
 
 export default function Skills() {
     return (
-        <div className="flex w-full md:flex-row flex-col justify-between">
+        <div className="flex my-20 p-2 sm:p-5 md:px-20 w-full md:flex-row flex-col justify-between">
             {descriptions.map((skill) => (
                 <SkillCard key={skill.id} skill={skill} />
             ))}
