@@ -18,7 +18,7 @@ const Home = () => {
                 <div className="w-full bg-white   max-w-5xl  h-10" />
                 <div className="max-w-5xl bg-white p-2 sm:p-5 md:px-20 transform ">
                     <h1 className="font-semibold my-4 text-xl md:text-2xl text-gray-600 ">
-                        Bienvenue sur le site south west fishing !
+                        Bienvenue sur le site south west fishing ! 🐟 🎣
                     </h1>
                     <div className="text-sm sm:text-xl text-gray-600 w-full  pb-48">
                         <div className="float-left  mt-2 mr-4 rounded-sm overflow-hidden">
