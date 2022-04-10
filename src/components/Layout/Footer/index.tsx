@@ -11,15 +11,15 @@ function Footer(): JSX.Element {
                         <span>n° diplôme: BP031120335</span>
                     </div>
                     <div>
-                        <span>n° carte professionnelle: 03212ED0030</span>
+                        <span>n° carte professionnelle: 06420ED0154</span>
                     </div>
                     <div>
-                        <span>n° de SIRET: 790 268 452 00022</span>
+                        <span>n° de SIREN: 889 895 876</span>
                     </div>
                 </div>
                 <div className="flex flex-col text-white my-2 md:my-0">
                     <span>Contact :</span>
-                    <span>Tel: 06.45.34.23.12</span>
+                    <span>Tel: 06.16.74.02.11</span>
                     <span>Email: southwestfishing64@gmail.com</span>
                 </div>
                 <div className="flex flex-col items-start align-middle justify-between my-2 md:my-0">

@@ -2,17 +2,9 @@
 
 module.exports = {
     reactStrictMode: true,
-    env: {
-        WOOCOMMERCE_API_URL: process.env.WOOCOMMERCE_API_URL,
-    },
+
     images: {
-        domains: [
-            'res.cloudinary.com',
-            'tailwindui.com',
-            'localhost',
-            'swageth.myprintful.com',
-            'thibautl3.sg-host.com',
-        ],
+        domains: ['localhost'],
     },
 
     async headers() {
