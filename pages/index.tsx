@@ -2,6 +2,7 @@ import Image from 'next/image';
 import useWindowDimensions from '@jidayyy/usewindowdimension';
 import { motion } from 'framer-motion';
 import MyCaroussel from '@components/Caroussel';
+import Skills from '@components/Skills';
 
 const Home = () => {
     const { width } = useWindowDimensions();
@@ -63,6 +64,7 @@ const Home = () => {
                             encore ...
                         </div>
                     </div>
+                    <Skills />
                 </div>
             </div>
         </motion.div>
