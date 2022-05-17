@@ -28,18 +28,30 @@ function Footer(): JSX.Element {
                     </div>
 
                     <div className="flex items-center align-middle justify-between">
-                        <Image
-                            src="/images/logoesf.png"
-                            width={50}
-                            height={50}
-                            quality={100}
-                        />
-                        <Image
-                            src="/images/logostcroix.png"
-                            width={100}
-                            height={45}
-                            quality={100}
-                        />
+                        <span className="mx-2">
+                            <Image
+                                src="/images/logoesf.png"
+                                width={50}
+                                height={50}
+                                quality={100}
+                            />
+                        </span>
+                        <span className="mx-2">
+                            <Image
+                                src="/images/logostcroix.png"
+                                width={100}
+                                height={45}
+                                quality={100}
+                            />
+                        </span>
+                        <span className="mx-2">
+                            <Image
+                                src="/images/aappma-nivelle.png"
+                                width={50}
+                                height={50}
+                                quality={100}
+                            />
+                        </span>
                     </div>
                 </div>
             </div>

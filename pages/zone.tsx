@@ -14,7 +14,7 @@ function Zone() {
                 Zone de pêche
             </h1>
             <div className="w-full">
-                <div className="float-left mb-10 md:mb-0 mr-4 w-full transform translate-y-2 md:w-1/2 md:h-1/2 relative overflow-hidden   md:aspect-h-2 md:aspect-w-6">
+                <div className="float-left mb-10 md:mb-0 mr-4 w-full transform translate-y-2 md:w-1/2  relative overflow-hidden   md:aspect-h-2 md:aspect-w-6">
                     <Map />
                 </div>
                 <span className="text-sm my-10 md:my-0 font-normal sm:text-base text-gray-600 w-full">
@@ -39,7 +39,7 @@ function Zone() {
             </div>
 
             <div className="my-10 w-full ">
-                <div className="float-right ml-4 w-full transform translate-y-2 md:w-1/2 md:h-1/2 relative overflow-hidden   md:aspect-h-2 md:aspect-w-6">
+                <div className="float-right ml-4 w-full transform translate-y-2 md:w-1/2  relative overflow-hidden   ">
                     <Image
                         src="/images/nive2.jpg"
                         width={430}
@@ -68,6 +68,43 @@ function Zone() {
                     <strong>Adour</strong> D&apos;une longueur d&apos;environ
                     80km, La Nive est très prisée pour la pêche des{' '}
                     <strong>salmonidés</strong>.
+                </span>
+            </div>
+            <div className=" w-full ">
+                <div className="float-left mr-4 mb-4 w-full transform translate-y-2 md:w-1/2  relative overflow-hidden  ">
+                    <Image
+                        src="/images/nive2.jpg"
+                        width={430}
+                        height={330}
+                        quality={100}
+                        priority
+                    />
+                </div>
+                <span className="text-sm  font-normal sm:text-base text-gray-600 w-full">
+                    <strong>Secteur sud Landes</strong>
+                    <br />
+                    <br />
+                    L’étang Blanc est un des lieux mythique de la pêche du
+                    brochet dans le sud ouest. <br />
+                    &nbsp; &nbsp;Ce lac naturel d’1,8 km² offre un cadre
+                    exceptionnel. Typique du littoral landais, il est peut
+                    profond, ses fonds sablonneux et la végétation aquatique y
+                    est abondante.
+                    <br />
+                    On y retrouve les pins et chênes lièges de la foret Landaise
+                    en arrière plan. Des tonnes de chasse sont réparties sur
+                    quasiment toute la superficie du lac. &nbsp; &nbsp;L’étang
+                    blanc déverse ses eaux dans l’étang de Hardy, son voisin,
+                    par un petit canal. Ce second plan d’eau, aux
+                    caractéristiques semblables, est également un très bon site
+                    pour la pêche du brochet. Un peut plus au nord se trouve
+                    l’étang de Souston, toutes les espèces de carnassiers y sont
+                    représentés dans ce lac de 3,8km². Son biotope est lui aussi
+                    typique des lacs côtiers landais (fonds sablonneux, peu
+                    profond…) cet étang est parfait pour l’apprentissage de la
+                    pêche du Black-Bass, tous les modes de pêches y sont
+                    réalisables, la pêche en surface à la « frog » au « Texas
+                    Rig » etc ...
                 </span>
             </div>
         </motion.div>
