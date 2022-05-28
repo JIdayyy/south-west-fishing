@@ -57,13 +57,6 @@ const MyCaroussel = () => {
                 />
                 <Image
                     priority
-                    src="/images/carr4.jpg"
-                    layout="responsive"
-                    width={1000}
-                    height={height()}
-                />
-                <Image
-                    priority
                     src="/images/trout2.jpg"
                     layout="responsive"
                     width={1000}
